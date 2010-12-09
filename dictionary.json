@@ -9,8 +9,8 @@
   "values":["previous"]
   },
 "data-collapsed":{
-  "info":"",
-  "values":[]
+  "info":"Set to true to make a collapsible element (element with data-role=collapsible) initially display collapsed not open.",
+  "values":["true"]
   },
 "data-counttheme":{
   "info":"",
@@ -53,8 +53,8 @@
   "values":[]
   },
 "data-nobackbtn":{
-  "info":"",
-  "values":[]
+  "info":"This can be set to true for a page (div with data-role=page) to prevent jquery mobile from displaying a back button at the header.",
+  "values":["true"]
   },
 "data-placeholder":{
   "info":"",
@@ -69,7 +69,7 @@
   "values":["dialog"]
   },
 "data-role":{
-  "info":"",
+  "info":"Sets a role for the element. Role affects how jquery mobile handles the element (thank you Captain Obvious)",
   "values":["page","header","content","listview","list-divider","footer","collapsible-set","collapsible","fieldcontain","slider","controlgroup","none","button","navbar"]
   },
 "data-split-icon":{
@@ -89,15 +89,15 @@
   "values":["a"]
   },
 "data-theme":{
-  "info":"",
-  "values":[]
+  "info":"Sets a theme variant for the element",
+  "values":["a","b","c","d","e"]
   },
 "data-track-theme":{
   "info":"",
   "values":[]
   },
 "data-transition":{
-  "info":"",
+  "info":"Add this to a link or a button pointing to other page of your application to make jquery mobile aminate the transition between pages when the link is clicked.",
   "values":["pop","slide","slideup","slidedown","fade","flip"]
   },
 "data-type":{
