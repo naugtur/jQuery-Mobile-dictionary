@@ -1,0 +1,111 @@
+{
+
+"data-back":{
+  "info":"",
+  "values":["true"]
+  },
+"data-back-btn-text":{
+  "info":"",
+  "values":["previous"]
+  },
+"data-collapsed":{
+  "info":"",
+  "values":[]
+  },
+"data-counttheme":{
+  "info":"",
+  "values":["e"]
+  },
+"data-dividertheme":{
+  "info":"",
+  "values":["b","c","d"]
+  },
+"data-filter":{
+  "info":"",
+  "values":[]
+  },
+"data-fullscreen":{
+  "info":"",
+  "values":[]
+  },
+"data-grid":{
+  "info":"",
+  "values":[]
+  },
+"data-icon":{
+  "info":"",
+  "values":["delete","gear","arrow-l","star","refresh","arrow-u","arrow-d","arrow-r","plus","minus","check","forward","back","grid","alert","info","custom"]
+  },
+"data-iconpos":{
+  "info":"",
+  "values":["notext","left","right","top","bottom"]
+  },
+"data-id":{
+  "info":"",
+  "values":["foo1","myfooter"]
+  },
+"data-inline":{
+  "info":"",
+  "values":[]
+  },
+"data-inset":{
+  "info":"",
+  "values":[]
+  },
+"data-nobackbtn":{
+  "info":"",
+  "values":[]
+  },
+"data-placeholder":{
+  "info":"",
+  "values":[]
+  },
+"data-position":{
+  "info":"",
+  "values":["fixed","inline"]
+  },
+"data-rel":{
+  "info":"",
+  "values":["dialog"]
+  },
+"data-role":{
+  "info":"",
+  "values":["page","header","content","listview","list-divider","footer","collapsible-set","collapsible","fieldcontain","slider","controlgroup","none","button","navbar"]
+  },
+"data-split-icon":{
+  "info":"",
+  "values":[]
+  },
+"data-split-theme":{
+  "info":"",
+  "values":[]
+  },
+"data-spliticon":{
+  "info":"",
+  "values":[]
+  },
+"data-splittheme":{
+  "info":"",
+  "values":["a"]
+  },
+"data-theme":{
+  "info":"",
+  "values":[]
+  },
+"data-track-theme":{
+  "info":"",
+  "values":[]
+  },
+"data-transition":{
+  "info":"",
+  "values":["pop","slide","slideup","slidedown","fade","flip"]
+  },
+"data-type":{
+  "info":"",
+  "values":["search","horizontal"]
+  },
+"data-url":{
+  "info":"",
+  "values":["themeswitcher"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+	"widget":{"info":""},
+	"page":{"info":""},
+	"checkboxradio":{"info":""},
+	"textinput":{"info":""},
+	"selectmenu":{"info":""},
+	"button":{"info":""},
+	"slider":{"info":""},
+	"collapsible":{"info":""},
+	"listview":{"info":""},
+	"dialog":{"info":""},
+	"navbar":{"info":""},
+	"gradeA":{"info":""},
+	"idStringEscape":{"info":""},
+	"updateHash":{"info":""},
+	"addResolutionBreakpoints":{"info":""},
+	"pageLoading":{"info":""},
+	"changePage":{"info":""},
+	"silentScroll":{"info":""}
+}
