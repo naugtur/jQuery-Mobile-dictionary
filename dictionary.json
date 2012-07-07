@@ -1,111 +1,103 @@
 {
 
-"data-back":{
-  "info":"",
-  "values":["true"]
+"data-add-back-btn":{
+ "values":["true"],
+ "links":["1.0/docs/toolbars/docs-headers.html"]
+  },
+"data-ajax":{
+ "values":["false"],
+ "links":["1.0/docs/forms/forms-sample.html","1.0/docs/config/index.html","1.0/docs/pages/touchoverflow.html","1.0/docs/pages/page-dynamic.html","1.0/docs/pages/page-titles.html","1.0/docs/pages/page-dialogs.html","1.0/docs/pages/page-scripting.html","1.0/docs/pages/page-transitions.html","1.0/docs/pages/phonegap.html","1.0/docs/pages/page-links.html","1.0/docs/pages/pages-themes/theme-e.html","1.0/docs/pages/pages-themes/theme-a.html","1.0/docs/pages/pages-themes/theme-b.html","1.0/docs/pages/pages-themes/theme-c.html","1.0/docs/pages/pages-themes/theme-d.html","1.0/docs/pages/page-anatomy.html","1.0/docs/pages/pages-themes.html","1.0/docs/pages/index.html","1.0/docs/pages/page-navmodel.html","1.0/docs/pages/page-cache.html","1.0/docs/pages/page-template.html"]
   },
 "data-back-btn-text":{
-  "info":"",
-  "values":["previous"]
+ "values":["previous"],
+ "links":["1.0/docs/toolbars/docs-headers.html"]
   },
 "data-collapsed":{
-  "info":"Set to true to make a collapsible element (element with data-role=collapsible) initially display collapsed not open.",
-  "values":["true"]
+ "values":[],
+ "links":["1.0/docs/pages/pages-themes/theme-e.html","1.0/docs/pages/pages-themes/theme-a.html","1.0/docs/pages/pages-themes/theme-b.html","1.0/docs/pages/pages-themes/theme-c.html","1.0/docs/pages/pages-themes/theme-d.html","1.0/docs/content/content-collapsible.html","1.0/docs/content/content-collapsible-set.html"]
   },
-"data-counttheme":{
-  "info":"",
-  "values":["e"]
+"data-direction":{
+ "values":["reverse"],
+ "links":["1.0/docs/pages/page-transitions.html","1.0/docs/pages/multipage-template.html"]
   },
-"data-dividertheme":{
-  "info":"",
-  "values":["b","c","d"]
+"data-dom-cache":{
+ "values":[],
+ "links":["1.0/docs/pages/page-cache.html"]
   },
 "data-filter":{
-  "info":"",
-  "values":[]
+ "values":[],
+ "links":["1.0/docs/lists/docs-lists.html"]
   },
 "data-fullscreen":{
-  "info":"",
-  "values":[]
-  },
-"data-grid":{
-  "info":"",
-  "values":[]
+ "values":[],
+ "links":["1.0/docs/toolbars/bars-fullscreen.html"]
   },
 "data-icon":{
-  "info":"",
-  "values":["delete","gear","arrow-l","star","refresh","arrow-u","arrow-d","arrow-r","plus","minus","check","forward","back","grid","alert","info","custom"]
+ "values":["home","delete","plus","arrow-u","arrow-d","check","gear","grid","star","custom","arrow-l","arrow-r","minus","refresh","forward","back","alert","info","search"],
+ "links":["1.0/docs/toolbars/bars-fullscreen.html","1.0/docs/toolbars/docs-footers.html","1.0/docs/toolbars/bars-fixed.html","1.0/docs/toolbars/docs-headers.html","1.0/docs/toolbars/docs-navbar.html","1.0/docs/toolbars/bars-themes.html","1.0/docs/toolbars/docs-bars.html","1.0/docs/toolbars/footer-persist-b.html","1.0/docs/toolbars/footer-persist-c.html","1.0/docs/toolbars/footer-persist-a.html","1.0/docs/toolbars/index.html","1.0/docs/forms/selects/options.html","1.0/docs/forms/selects/methods.html","1.0/docs/forms/selects/custom.html","1.0/docs/forms/selects/events.html","1.0/docs/forms/selects/index.html","1.0/docs/forms/search/options.html","1.0/docs/forms/search/methods.html","1.0/docs/forms/search/events.html","1.0/docs/forms/search/index.html","1.0/docs/forms/forms-all.html","1.0/docs/forms/switch/options.html","1.0/docs/forms/switch/methods.html","1.0/docs/forms/switch/events.html","1.0/docs/forms/switch/index.html","1.0/docs/forms/textinputs/options.html","1.0/docs/forms/textinputs/methods.html","1.0/docs/forms/textinputs/events.html","1.0/docs/forms/textinputs/index.html","1.0/docs/forms/forms-themes.html","1.0/docs/forms/docs-forms.html","1.0/docs/forms/forms-sample.html","1.0/docs/forms/slider/options.html","1.0/docs/forms/slider/methods.html","1.0/docs/forms/slider/events.html","1.0/docs/forms/slider/index.html","1.0/docs/forms/checkboxes/options.html","1.0/docs/forms/checkboxes/methods.html","1.0/docs/forms/checkboxes/events.html","1.0/docs/forms/checkboxes/index.html","1.0/docs/forms/index.html","1.0/docs/forms/forms-all-native.html","1.0/docs/forms/radiobuttons/options.html","1.0/docs/forms/radiobuttons/methods.html","1.0/docs/forms/radiobuttons/events.html","1.0/docs/forms/radiobuttons/index.html","1.0/docs/forms/forms-sample-selfsubmit.php","1.0/docs/config/iOSFullscreen.html","1.0/docs/config/touchOverflow.html","1.0/docs/config/dialogTransition.html","1.0/docs/config/jq17b1.html","1.0/docs/config/pushState.html","1.0/docs/config/loadingMessage.html","1.0/docs/config/pageTransition.html","1.0/docs/config/pageLoadErrorMessage.html","1.0/docs/config/index.html","1.0/docs/config/minScrollBack.html","1.0/docs/buttons/buttons-events.html","1.0/docs/buttons/buttons-icons.html","1.0/docs/buttons/buttons-methods.html","1.0/docs/buttons/buttons-inline.html","1.0/docs/buttons/buttons-themes.html","1.0/docs/buttons/buttons-options.html","1.0/docs/buttons/buttons-grouped.html","1.0/docs/buttons/buttons-types.html","1.0/docs/buttons/index.html","1.0/docs/pages/touchoverflow.html","1.0/docs/pages/page-dynamic.html","1.0/docs/pages/page-titles.html","1.0/docs/pages/page-dialogs.html","1.0/docs/pages/page-scripting.html","1.0/docs/pages/page-transitions.html","1.0/docs/pages/phonegap.html","1.0/docs/pages/page-links.html","1.0/docs/pages/pages-themes/theme-e.html","1.0/docs/pages/pages-themes/theme-a.html","1.0/docs/pages/pages-themes/theme-b.html","1.0/docs/pages/pages-themes/theme-c.html","1.0/docs/pages/pages-themes/theme-d.html","1.0/docs/pages/page-anatomy.html","1.0/docs/pages/pages-themes.html","1.0/docs/pages/index.html","1.0/docs/pages/page-navmodel.html","1.0/docs/pages/page-cache.html","1.0/docs/content/content-collapsible.html","1.0/docs/content/content-html.html","1.0/docs/content/content-themes.html","1.0/docs/content/content-collapsible-set.html","1.0/docs/content/content-grids.html","1.0/docs/content/index.html","1.0/docs/api/data-attributes.html","1.0/docs/api/globalconfig.html","1.0/docs/api/methods.html","1.0/docs/api/themes.html","1.0/docs/api/events.html","1.0/docs/api/index.html","1.0/docs/lists/lists-search-inset.html","1.0/docs/lists/lists-forms-inset.html","1.0/docs/lists/lists-readonly-inset.html","1.0/docs/lists/docs-lists.html","1.0/docs/lists/lists-divider.html","1.0/docs/lists/lists-nested.html","1.0/docs/lists/lists-split.html","1.0/docs/lists/lists-inset.html","1.0/docs/lists/lists-formatting.html","1.0/docs/lists/lists-ol.html","1.0/docs/lists/lists-icons.html","1.0/docs/lists/lists-count.html","1.0/docs/lists/lists-search.html","1.0/docs/lists/lists-forms.html","1.0/docs/lists/lists-thumbnails.html","1.0/docs/lists/lists-readonly.html","1.0/docs/lists/lists-themes.html","1.0/docs/lists/lists-performance.html","1.0/docs/lists/index.html","1.0/docs/lists/lists-ul.html","1.0/docs/lists/lists-search-with-dividers.html","1.0/docs/about/getting-started.html","1.0/docs/about/features.html","1.0/docs/about/intro.html","1.0/docs/about/accessibility.html","1.0/docs/about/platforms.html"]
   },
 "data-iconpos":{
-  "info":"",
-  "values":["notext","left","right","top","bottom"]
+ "values":["top","bottom","left","right"],
+ "links":["1.0/docs/toolbars/docs-navbar.html","1.0/docs/buttons/buttons-icons.html"]
   },
 "data-id":{
-  "info":"",
-  "values":["foo1","myfooter"]
+ "values":["myfooter"],
+ "links":["1.0/docs/toolbars/docs-footers.html"]
   },
 "data-inline":{
-  "info":"",
-  "values":[]
+ "values":[],
+ "links":["1.0/docs/buttons/buttons-inline.html","1.0/docs/pages/page-anatomy.html"]
   },
 "data-inset":{
-  "info":"",
-  "values":[]
+ "values":[],
+ "links":["1.0/docs/lists/docs-lists.html"]
   },
-"data-nobackbtn":{
-  "info":"This can be set to true for a page (div with data-role=page) to prevent jquery mobile from displaying a back button at the header.",
-  "values":["true"]
+"data-mynamespace-foo":{
+ "values":["..."],
+ "links":["1.0/docs/api/globalconfig.html"]
+  },
+"data-native":{
+ "values":[],
+ "links":["1.0/docs/forms/docs-forms.html"]
+  },
+"data-native-menu":{
+ "values":[],
+ "links":["1.0/docs/forms/selects/custom.html","1.0/docs/forms/selects/index.html","1.0/docs/forms/forms-all.html","1.0/docs/lists/lists-forms-inset.html","1.0/docs/lists/lists-forms.html"]
+  },
+"data-overlay-theme":{
+ "values":["e"],
+ "links":["1.0/docs/pages/dialog-overlay.html"]
   },
 "data-placeholder":{
-  "info":"",
-  "values":[]
+ "values":[],
+ "links":["1.0/docs/forms/selects/custom.html"]
   },
 "data-position":{
-  "info":"",
-  "values":["fixed","inline"]
+ "values":["fixed"],
+ "links":["1.0/docs/toolbars/bars-fixed.html","1.0/docs/toolbars/docs-bars.html"]
   },
 "data-rel":{
-  "info":"",
-  "values":["dialog"]
+ "values":["dialog"],
+ "links":["1.0/docs/toolbars/docs-headers.html","1.0/docs/toolbars/footer-persist-b.html","1.0/docs/pages/page-dialogs.html","1.0/docs/pages/dialog-alt.html","1.0/docs/pages/multipage-template.html","1.0/docs/pages/page-links.html","1.0/docs/pages/dialog.html","1.0/docs/lists/lists-split.html","1.0/docs/lists/lists-inset.html"]
   },
 "data-role":{
-  "info":"Sets a role for the element. Role affects how jquery mobile handles the element (thank you Captain Obvious)",
-  "values":["page","header","content","listview","list-divider","footer","collapsible-set","collapsible","fieldcontain","slider","controlgroup","none","button","navbar"]
-  },
-"data-split-icon":{
-  "info":"",
-  "values":[]
-  },
-"data-split-theme":{
-  "info":"",
-  "values":[]
-  },
-"data-spliticon":{
-  "info":"",
-  "values":[]
-  },
-"data-splittheme":{
-  "info":"",
-  "values":["a"]
+ "values":["page","header","content","collapsible","listview","list-divider","footer","controlgroup","fieldcontain","slider","button","navbar","none","collapsible-set"],
+ "links":["1.0/docs/toolbars/bars-fullscreen.html","1.0/docs/toolbars/docs-footers.html","1.0/docs/toolbars/bars-fixed.html","1.0/docs/toolbars/docs-headers.html","1.0/docs/toolbars/docs-navbar.html","1.0/docs/toolbars/bars-themes.html","1.0/docs/toolbars/docs-bars.html","1.0/docs/toolbars/footer-persist-b.html","1.0/docs/toolbars/footer-persist-c.html","1.0/docs/toolbars/footer-persist-a.html","1.0/docs/toolbars/index.html","1.0/docs/forms/selects/options.html","1.0/docs/forms/selects/methods.html","1.0/docs/forms/selects/custom.html","1.0/docs/forms/selects/events.html","1.0/docs/forms/selects/index.html","1.0/docs/forms/search/options.html","1.0/docs/forms/search/methods.html","1.0/docs/forms/search/events.html","1.0/docs/forms/search/index.html","1.0/docs/forms/forms-all.html","1.0/docs/forms/switch/options.html","1.0/docs/forms/switch/methods.html","1.0/docs/forms/switch/events.html","1.0/docs/forms/switch/index.html","1.0/docs/forms/textinputs/options.html","1.0/docs/forms/textinputs/methods.html","1.0/docs/forms/textinputs/events.html","1.0/docs/forms/textinputs/index.html","1.0/docs/forms/forms-themes.html","1.0/docs/forms/docs-forms.html","1.0/docs/forms/forms-sample.html","1.0/docs/forms/slider/options.html","1.0/docs/forms/slider/methods.html","1.0/docs/forms/slider/events.html","1.0/docs/forms/slider/index.html","1.0/docs/forms/checkboxes/options.html","1.0/docs/forms/checkboxes/methods.html","1.0/docs/forms/checkboxes/events.html","1.0/docs/forms/checkboxes/index.html","1.0/docs/forms/index.html","1.0/docs/forms/forms-all-native.html","1.0/docs/forms/radiobuttons/options.html","1.0/docs/forms/radiobuttons/methods.html","1.0/docs/forms/radiobuttons/events.html","1.0/docs/forms/radiobuttons/index.html","1.0/docs/forms/forms-sample-selfsubmit.php","1.0/docs/config/iOSFullscreen.html","1.0/docs/config/touchOverflow.html","1.0/docs/config/dialogTransition.html","1.0/docs/config/jq17b1.html","1.0/docs/config/pushState.html","1.0/docs/config/loadingMessage.html","1.0/docs/config/pageTransition.html","1.0/docs/config/pageLoadErrorMessage.html","1.0/docs/config/index.html","1.0/docs/config/minScrollBack.html","1.0/docs/buttons/buttons-events.html","1.0/docs/buttons/buttons-icons.html","1.0/docs/buttons/buttons-methods.html","1.0/docs/buttons/buttons-inline.html","1.0/docs/buttons/buttons-themes.html","1.0/docs/buttons/buttons-options.html","1.0/docs/buttons/buttons-grouped.html","1.0/docs/buttons/buttons-types.html","1.0/docs/buttons/index.html","1.0/docs/pages/touchoverflow.html","1.0/docs/pages/page-dynamic.html","1.0/docs/pages/page-titles.html","1.0/docs/pages/page-dialogs.html","1.0/docs/pages/dialog-success.html","1.0/docs/pages/page-scripting.html","1.0/docs/pages/page-transitions.html","1.0/docs/pages/dialog-buttons.html","1.0/docs/pages/phonegap.html","1.0/docs/pages/dialog-alt.html","1.0/docs/pages/multipage-template.html","1.0/docs/pages/page-links.html","1.0/docs/pages/pages-themes/theme-e.html","1.0/docs/pages/pages-themes/theme-a.html","1.0/docs/pages/pages-themes/theme-b.html","1.0/docs/pages/pages-themes/theme-c.html","1.0/docs/pages/pages-themes/theme-d.html","1.0/docs/pages/dynamic-samples/sample-reuse-page.html","1.0/docs/pages/page-anatomy.html","1.0/docs/pages/pages-themes.html","1.0/docs/pages/dialog-overlay.html","1.0/docs/pages/index.html","1.0/docs/pages/page-navmodel.html","1.0/docs/pages/page-cache.html","1.0/docs/pages/page-template.html","1.0/docs/pages/docs-links-urltest/index.html","1.0/docs/pages/dialog.html","1.0/docs/content/content-collapsible.html","1.0/docs/content/content-html.html","1.0/docs/content/content-themes.html","1.0/docs/content/content-collapsible-set.html","1.0/docs/content/content-grids.html","1.0/docs/content/index.html","1.0/docs/api/data-attributes.html","1.0/docs/api/globalconfig.html","1.0/docs/api/methods.html","1.0/docs/api/themes.html","1.0/docs/api/events.html","1.0/docs/api/index.html","1.0/docs/lists/lists-search-inset.html","1.0/docs/lists/lists-forms-inset.html","1.0/docs/lists/lists-readonly-inset.html","1.0/docs/lists/docs-lists.html","1.0/docs/lists/lists-divider.html","1.0/docs/lists/lists-nested.html","1.0/docs/lists/lists-split.html","1.0/docs/lists/lists-split-purchase.html","1.0/docs/lists/lists-inset.html","1.0/docs/lists/lists-formatting.html","1.0/docs/lists/lists-ol.html","1.0/docs/lists/lists-icons.html","1.0/docs/lists/lists-count.html","1.0/docs/lists/lists-search.html","1.0/docs/lists/lists-forms.html","1.0/docs/lists/lists-thumbnails.html","1.0/docs/lists/lists-readonly.html","1.0/docs/lists/lists-themes.html","1.0/docs/lists/lists-performance.html","1.0/docs/lists/index.html","1.0/docs/lists/lists-ul.html","1.0/docs/lists/lists-search-with-dividers.html","1.0/docs/about/getting-started.html","1.0/docs/about/features.html","1.0/docs/about/intro.html","1.0/docs/about/accessibility.html","1.0/docs/about/platforms.html","1.0/index.html"]
   },
 "data-theme":{
-  "info":"Sets a theme variant for the element",
-  "values":["a","b","c","d","e"]
-  },
-"data-track-theme":{
-  "info":"",
-  "values":[]
+ "values":["a","d","b","c"],
+ "links":["1.0/docs/toolbars/bars-fullscreen.html","1.0/docs/toolbars/docs-footers.html","1.0/docs/toolbars/bars-fixed.html","1.0/docs/toolbars/docs-headers.html","1.0/docs/toolbars/docs-navbar.html","1.0/docs/toolbars/bars-themes.html","1.0/docs/toolbars/docs-bars.html","1.0/docs/toolbars/footer-persist-b.html","1.0/docs/toolbars/footer-persist-c.html","1.0/docs/toolbars/footer-persist-a.html","1.0/docs/forms/selects/options.html","1.0/docs/forms/selects/methods.html","1.0/docs/forms/selects/custom.html","1.0/docs/forms/selects/events.html","1.0/docs/forms/selects/index.html","1.0/docs/forms/search/options.html","1.0/docs/forms/search/methods.html","1.0/docs/forms/search/events.html","1.0/docs/forms/search/index.html","1.0/docs/forms/forms-all.html","1.0/docs/forms/switch/options.html","1.0/docs/forms/switch/methods.html","1.0/docs/forms/switch/events.html","1.0/docs/forms/switch/index.html","1.0/docs/forms/textinputs/options.html","1.0/docs/forms/textinputs/methods.html","1.0/docs/forms/textinputs/events.html","1.0/docs/forms/textinputs/index.html","1.0/docs/forms/forms-themes.html","1.0/docs/forms/docs-forms.html","1.0/docs/forms/forms-sample.html","1.0/docs/forms/slider/options.html","1.0/docs/forms/slider/methods.html","1.0/docs/forms/slider/events.html","1.0/docs/forms/slider/index.html","1.0/docs/forms/checkboxes/options.html","1.0/docs/forms/checkboxes/methods.html","1.0/docs/forms/checkboxes/events.html","1.0/docs/forms/checkboxes/index.html","1.0/docs/forms/forms-all-native.html","1.0/docs/forms/radiobuttons/options.html","1.0/docs/forms/radiobuttons/methods.html","1.0/docs/forms/radiobuttons/events.html","1.0/docs/forms/radiobuttons/index.html","1.0/docs/forms/forms-sample-selfsubmit.php","1.0/docs/buttons/buttons-events.html","1.0/docs/buttons/buttons-icons.html","1.0/docs/buttons/buttons-methods.html","1.0/docs/buttons/buttons-inline.html","1.0/docs/buttons/buttons-themes.html","1.0/docs/buttons/buttons-options.html","1.0/docs/buttons/buttons-grouped.html","1.0/docs/buttons/buttons-types.html","1.0/docs/pages/touchoverflow.html","1.0/docs/pages/page-dynamic.html","1.0/docs/pages/page-titles.html","1.0/docs/pages/page-dialogs.html","1.0/docs/pages/page-scripting.html","1.0/docs/pages/page-transitions.html","1.0/docs/pages/phonegap.html","1.0/docs/pages/page-links.html","1.0/docs/pages/pages-themes/theme-e.html","1.0/docs/pages/pages-themes/theme-a.html","1.0/docs/pages/pages-themes/theme-b.html","1.0/docs/pages/pages-themes/theme-c.html","1.0/docs/pages/pages-themes/theme-d.html","1.0/docs/pages/page-anatomy.html","1.0/docs/pages/pages-themes.html","1.0/docs/pages/page-navmodel.html","1.0/docs/pages/page-cache.html","1.0/docs/content/content-collapsible.html","1.0/docs/content/content-html.html","1.0/docs/content/content-themes.html","1.0/docs/content/content-collapsible-set.html","1.0/docs/content/content-grids.html","1.0/docs/api/data-attributes.html","1.0/docs/api/globalconfig.html","1.0/docs/api/methods.html","1.0/docs/api/themes.html","1.0/docs/api/events.html","1.0/docs/lists/lists-search-inset.html","1.0/docs/lists/lists-forms-inset.html","1.0/docs/lists/lists-readonly-inset.html","1.0/docs/lists/docs-lists.html","1.0/docs/lists/lists-divider.html","1.0/docs/lists/lists-nested.html","1.0/docs/lists/lists-split.html","1.0/docs/lists/lists-inset.html","1.0/docs/lists/lists-formatting.html","1.0/docs/lists/lists-ol.html","1.0/docs/lists/lists-icons.html","1.0/docs/lists/lists-count.html","1.0/docs/lists/lists-search.html","1.0/docs/lists/lists-forms.html","1.0/docs/lists/lists-thumbnails.html","1.0/docs/lists/lists-readonly.html","1.0/docs/lists/lists-themes.html","1.0/docs/lists/lists-performance.html","1.0/docs/lists/lists-ul.html","1.0/docs/lists/lists-search-with-dividers.html","1.0/docs/about/getting-started.html","1.0/docs/about/features.html","1.0/docs/about/intro.html","1.0/docs/about/accessibility.html","1.0/docs/about/platforms.html"]
   },
 "data-transition":{
-  "info":"Add this to a link or a button pointing to other page of your application to make jquery mobile aminate the transition between pages when the link is clicked.",
-  "values":["pop","slide","slideup","slidedown","fade","flip"]
+ "values":["pop","slide","myTransition"],
+ "links":["1.0/docs/forms/forms-sample.html","1.0/docs/pages/page-transitions.html"]
   },
 "data-type":{
-  "info":"",
-  "values":["search","horizontal"]
+ "values":["horizontal"],
+ "links":["1.0/docs/forms/selects/index.html","1.0/docs/forms/checkboxes/index.html","1.0/docs/forms/radiobuttons/index.html","1.0/docs/buttons/buttons-grouped.html"]
   },
 "data-url":{
-  "info":"",
-  "values":["themeswitcher"]
+ "values":["page.html&subpageidentifier","artists.html&ui-page"],
+ "links":["1.0/docs/pages/page-navmodel.html"]
   }
 }

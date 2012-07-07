@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html>
+ <head>
+  <title>JQM FAQ</title> 
+  <script defer="defer" type="text/javascript" src="http://production-php.usabilitytools.com/uvr.js?id=1333460996"></script>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a2/jquery.mobile-1.0a2.min.css" />
+  <script src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.0a2/jquery.mobile-1.0a2.min.js"></script>
+ </head>
+ <body>         
+  <div data-role="page" id="faq">
+    <div data-role="header" data-nobackbtn="true">
+      <h1>jQuery Mobile FAQ</h1>
+    </div> <!-- /header --> 
+    <div data-role="content">
+      <p> This is a howto FAQ that will cover problems I encounter in my work or on the net and get them solved. Send me yours if you want to. I will credit authors in their howtos.</p>
+      <div>
+        <div data-role="collapsible" data-collapsed="true">
+        <h4>How do I make JQM work with content I add to DOM? (after a getJSON or stuff)</h4>
+        Since jQuery Mobile beta2 there is a new event <code>create</code>. You trigger this event on the topmost element that you just inserted to DOM. You can also trigger it on the element you appended the data to except some cases when it's a certain part of a widget.
+        
+        <pre>
+        $.get('data.html',function(data){
+					$('#something').append(data).trigger('create');
+					},'html');
+        </pre>
+        
+        <hr>
+        <strong>The old way - before beta2</strong>
+          <p>Background: When creating JQM dictionary I decided to store info in json format and load it with an AJAX call. Loaded data is wrapped in some nice html with JQM specific markup. When I add that to DOM it still looks nasty.</p>
+          <p>Research: I found a lot of issues like <a href="http://stackoverflow.com/questions/4039428/jquery-mobile-dynamically-creating-form-elements" rel="external">this</a>, but they all mentioned working with single elements. And I want a general solution.</p>
+          <p>Solution: CaffeineFueled suggested calling <code>.page()</code> on a page one adds the content to. It should redraw the whole thing. But it does nothing... After some experiments I found out that <code>.page()</code> can't be called twice for an element. And that's it. To make it work - create a wrapping element, put content in it and when DOM modifications are finished - call <code>.page()</code> on your newly added element.</p>
+          <p>Example: Short example code assuming there is a file some.stuff and it returns html for some collapsibles.</p>
+          <pre>
+  $.get('some.stuff',function(data){
+    $('#somepage').html('&lt;div data-role="collapsible-set" id="newstuff">&lt;/div>');
+    $("#newstuff").html(data).page();
+   },'html');
+          </pre>
+          <p>Conclusion: easy ;)</p>
+          <small>-naugtur</small>
+        </div>
+        
+		<div data-role="collapsible" data-collapsed="true">
+        <h4>Why didn't my script run on a subpage?</h4>
+          <p>Pages are loaded via AJAX. If you put a script in the <code>head</code> of the document, it won't run. Also - there is no DOMready event when a subpage is loaded.</p>
+          
+          <p>Solution: Put the <code>script</code> tag inside the <code>&lt;div data-role="page"&gt;</code> or bind to <code>pagebeforeshow</code> event for that page you want it to work with.</p>
+          <small>-naugtur</small>
+        </div>
+
+      </div>
+    </div><!-- /content -->
+    <div data-role="footer">
+      <a href="contribute.html">about</a>
+      <a href="contribute.html">Contribution welcome!</a>
+      
+    </div> <!-- /footer -->          	
+  </div>
+ </body>
+</html>    
+
